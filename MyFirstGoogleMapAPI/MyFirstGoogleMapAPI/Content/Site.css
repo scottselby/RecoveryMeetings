@@ -1,0 +1,101 @@
+﻿#menu
+{
+   position:absolute;
+   bottom: -4px;
+   left: 401px; 
+}
+#menu ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+#menu li {
+	display: inline;
+	border: solid 1px #aaa;
+	border-width: 2px 2px 0 1px;
+	padding: 10px 30px 10px 30px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;background: rgb(255, 255, 255);
+background: -moz-linear-gradient(90deg, rgb(255, 255, 255) 33%, rgb(210, 210, 210) 91%);
+background: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 33%, rgb(210, 210, 210) 91%);
+background: -o-linear-gradient(90deg, rgb(255, 255, 255) 33%, rgb(210, 210, 210) 91%);
+background: -ms-linear-gradient(90deg, rgb(255, 255, 255) 33%, rgb(210, 210, 210) 91%);
+background: linear-gradient(180deg, rgb(255, 255, 255) 33%, rgb(210, 210, 210) 91%);
+
+
+
+
+
+}
+#menu li a {text-decoration:none;color:#444}
+
+body {background: #f7f4e6 url('../Images/bkg.jpg') repeat-x top left;font-family: "Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial;}
+.header{background: transparent url('../Images/header-bkg.jpg') no-repeat bottom left;height: 75px;position:relative;/* left: 67px; */margin: auto;width: 900px;}
+.mainLogo1{font-family: "Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial;, cursive;color: #1E82CC;line-height:20pt;
+    font-size: 28pt;position:absolute;top: 4px;left: 21px;text-shadow: rgba(255,255,255,0.5) 2px 5px 5px;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);background-color: #666666;-webkit-background-clip: text;      -moz-background-clip: text;      background-clip: text;      
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;text-shadow: 1px 1px white, -1px -1px #444;}
+.mainLogo3{
+    font-family: "Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial;
+    color:#1E82CC;line-height:18pt;
+    font-size: 19pt;
+    position:absolute;
+    top: 9px;
+
+    left: 297px;  -moz-background-clip: text;      background-clip: text;            
+    
+    text-shadow: 1px 1px 0px #fff, 3px 1px 0px rgba(0,0,0,0.15);
+    text-shadow: 1px 1px white, -1px -1px #444;}
+.mainContent
+{
+    margin:auto;
+    position:relative;
+    width:900px;
+    height:600px;
+	background-color: #fff;
+	-webkit-box-shadow: 5px 5px 12px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    5px 5px 12px rgba(50, 50, 50, 0.75);
+box-shadow:         5px 5px 12px rgba(50, 50, 50, 0.75);
+
+    top: 76px;
+
+    border-radius: 7px;
+}
+.searchBox
+{
+    color:#555;
+    position:absolute;
+    top: 0px;
+    right: 40px;
+    width: 550px;
+    height: 73px;
+    background-color: #fff;
+	-webkit-box-shadow: 5px 5px 12px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    5px 5px 12px rgba(50, 50, 50, 0.75);
+box-shadow:         5px 5px 12px rgba(50, 50, 50, 0.75);
+    
+    border-radius: 20px;
+    padding: 10px;
+}
+.mainTop{top: 17px;position:relative;width: 800px;margin: auto;color:#FF9B16;}
+.info{font-size:17pt;position:relative;top:8px;}
+.Location{border-radius: 2px;border: 1px solid #999;width:275px;height: 20px;}
+.searchBox select{border-right: 2px;border: 1px solid #999;}
+.submit{position: relative;  top: 11px;display:inline;border: solid 1px #aaa;
+	padding: 6px 20px 6px 20px;
+	border-radius: 8px;
+	color:#555;
+	margin-left: 35px;
+	margin-bottom:5px;
+	 font-family: "Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial;
+   background: -moz-linear-gradient(90deg, rgb(255, 255, 255) 33%, rgb(210, 210, 210) 91%);
+background: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 33%, rgb(210, 210, 210) 91%);
+background: -o-linear-gradient(90deg, rgb(255, 255, 255) 33%, rgb(210, 210, 210) 91%);
+background: -ms-linear-gradient(90deg, rgb(255, 255, 255) 33%, rgb(210, 210, 210) 91%);
+background: linear-gradient(180deg, rgb(255, 255, 255) 33%, rgb(210, 210, 210) 91%);}
+
+      #map-canvas { height: 500px;width: 650px;position:absolute;display:inline-block;margin:8px; }
+      .results{position:absolute;right:0px;}
+.results ul{list-style:none;}
+.results li{height: 63px;width: 236px;border-bottom: 1px dashed #666;}

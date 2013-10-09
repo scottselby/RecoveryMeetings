@@ -1,0 +1,54 @@
+﻿body {background-color: #fff;}
+.topWhite{position:absolute;height: 47px;width:100%;background-color: #f7f4e6;border-bottom: 1px solid #aaa;}
+.mainContainer{position:relative;width:1000px;margin:auto;background-color: #fff;}
+.header{position:relative;height: 47px;border-bottom:1px solid #aaa;margin-bottom: 25px;background-color: #f1f1f1;}
+.mainLogo1{font-family: 'Patrick Hand', cursive;color: #1E82CC;line-height:20pt;
+    font-size: 28pt;position:absolute;top: 5px;left: 100px;text-shadow: rgba(255,255,255,0.5) 2px 5px 5px;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);background-color: #666666;-webkit-background-clip: text;      -moz-background-clip: text;      background-clip: text;      
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;text-shadow: 1px 1px white, -1px -1px #444;}
+.mainLogo3{
+    font-family: 'Patrick Hand', cursive;
+    color:#1E82CC;line-height:18pt;
+    font-size: 19pt;
+    position:absolute;
+    top: 10px;
+    left: 340px;
+    /* background-color: #666666; */      
+    /* -webkit-background-clip: text; */      -moz-background-clip: text;      background-clip: text;            
+    
+    text-shadow: 1px 1px 0px #fff, 3px 1px 0px rgba(0,0,0,0.15);
+    text-shadow: 1px 1px white, -1px -1px #444;}
+.navList
+{
+    position: relative;
+    top: 8px;
+    list-style: none;
+    margin: 0;
+   text-align: center;
+    height: 15px;
+    color: #1E82CC;
+    font-weight: bolder;
+}
+.navList li
+{
+    position: relative;
+    display: inline;    
+    /* border-right:1px solid #aaa; */
+    padding: 0px 20px 0 20px;
+    font-family: "Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial;
+    font-size: 13pt;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.lastLI{border-right: none !important;}
+.formContainer a{font-family: 'Patrick Hand', cursive;color: #555;font-size: 14pt;}
+.formContainer{margin-bottom: 25px;background-color: #f2f2f2;padding: 15px 15px 35px 15px;/* width: 1200px; */border: 1px solid #aaa;border-radius: 8px;}
+.textbox{height:20px;border-radius:3px;border:1px solid #555}
+.textbox.location{width:300px;margin-right: 20px;display: inline-block;}
+.radioContainer input{margin-right:20px;}
+.radioContainer{display: inline;margin-right: 20px;}
+.radiusContainer{display:inline;margin-right: 55px;}
+.searchSubmit{display:inline;}
+.searchSubmit{border:1px solid #aaa;height:28px;border-radius:5px;width:100px;cursor:pointer;}
+.markerImage{display:inline;}
+
